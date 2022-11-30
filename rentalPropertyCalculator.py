@@ -15,7 +15,7 @@ class RentalPropertyCalc():
             self.aboutProperty()
         else:
             cost_of_property = int(cost_of_property)
-        down_payment = input("Planned downpayment for property: $")
+        down_payment = input("Downpayment for property: $")
         if down_payment.isnumeric() == False:
             print("     Please only enter a numeric value for the downpayment amount of your property.")
             self.aboutProperty()
@@ -165,3 +165,5 @@ def runner():
     new_house.cashOnCashROI()
 
 runner()
+
+RentalPropertyCalc()
